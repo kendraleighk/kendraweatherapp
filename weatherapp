@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/90d33f831d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Kendra's Weather App</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="border">
+        <form id= "search-form" id = "search-form">
+          <div class="form-group">
+            <input type="text" placeholder="Search City..." autocomplete = "off" autofocus = "on" id = "city-input"/>
+          
+          <input type = "submit" value="search"/>
+          </div>
+        </form>
+
+        <h1 id= "city">
+          <strong>
+            New York
+          </strong>
+        </h1>
+        <h2>
+          <i class="far fa-sun"></i>
+        </h2>
+        <span class = "temperature"
+        id = "temperature"><strong>63</stong></span><span class = "units">
+            °F | <a href = "a" id = "celsius-link">°C</a></span>
+        <h3 id = "date"></h3>
+        <div class="row">
+          <div class="col-md-2">Mon</div>
+          <div class="col-md-2">Tues</div>
+          <div class="col-md-2">Wed</div>
+          <div class="col-md-2">Thurs</div>
+          <div class="col-md-2">Fri</div>
+        </div>
+        <div class="row">
+          <div class="col-md-2">67°</div>
+          <div class="col-md-2">75°</div>
+          <div class="col-md-2">80°</div>
+          <div class="col-md-2">80°</div>
+          <div class="col-md-2">78°</div>
+        </div>
+        <div class="row">
+          <div class="col-md-2"><i class="fas fa-sun"></i></div>
+          <div class="col-md-2"><i class="fas fa-sun"></i></div>
+          <div class="col-md-2"><i class="fas fa-sun"></i></div>
+          <div class="col-md-2"><i class="fas fa-cloud"></i></div>
+          <div class="col-md-2"><i class="fas fa-sun"></i></div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
