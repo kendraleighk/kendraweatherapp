@@ -16,6 +16,7 @@
     ></script>
     <title>Kendra's Weather App</title>
     <link rel="stylesheet" href="src/styles.css" />
+    <script src = "weatherapp.js"></script>
   </head>
   <body>
     <div class="container">
