@@ -118,3 +118,68 @@ function convertToCelsius(event) {
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", convertToCelsius);
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kendra's Weather App</title>
+    <link rel = "stylesheet" href = "src/styles.css"/>
+</head>
+body {
+  background-color: #f5f1f5;
+}
+h1 {
+  color: #daa1b4;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+h2 {
+  color: #daa1b4;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0.8;
+}
+.border {
+  padding: 50px;
+  margin: 0 auto;
+}
+.container {
+  background: #c1dbf3;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
+  color: #709fb0;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fas-fa-sun {
+  color: yellow;
+  font-size: 20px;
+}
+.fas-fa-cloud {
+  color: grey;
+  font-size: 20px;
+}
+.far-fa-sun {
+  color: lightyellow;
+  font-size: 50px;
+}
+i {
+  padding-right: 5px;
+  padding-left: 10px;
+}
+.row {
+  justify-content: center;
+}
+.temperature{
+  font-size:40px;
+}
+
